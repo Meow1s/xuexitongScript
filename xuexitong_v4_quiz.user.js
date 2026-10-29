@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         学习通自动刷课 + 刷题助手 V4
 // @namespace    local.codex.xuexitong
-// @version      4.3.1
+// @version      4.3.2
 // @description  自动播放、跨章切换小节，自动跳过已完成/零待完成任务点，章节测验与视频弹题自动作答并重试
 // @author       Meow1s, Codex
 // @homepageURL  https://github.com/Meow1s/xuexitongScript
@@ -21,6 +21,8 @@
 // 本脚本基于 chaolucky18/xuexitongScript 的 V3 版本扩展：
 // https://github.com/chaolucky18/xuexitongScript
 // 感谢原作者 chaolucky18 及项目所有贡献者。
+// 本项目由 DeepSeek Harness 协助完成：
+// https://github.com/deepseek-ai/deepseek-harness
 
 (function () {
     'use strict';

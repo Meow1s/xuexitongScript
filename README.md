@@ -173,6 +173,9 @@ node tests/verify-v3.mjs
 - 原项目：[chaolucky18/xuexitongScript](https://github.com/chaolucky18/xuexitongScript)
 - 感谢原作者 chaolucky18 及项目贡献者提供的 V3 视频播放、目录导航和页面结构基础。
 - V4 的章节测验、视频弹题、题库和目录跳过功能在此基础上扩展。
+- 本项目由 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 协助完成。
+
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
 
 ## 免责声明
 

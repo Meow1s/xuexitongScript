@@ -75,6 +75,10 @@ DeepSeek 配置：
 
 ## 更新日志
 
+### 4.3.2
+
+- 补充 DeepSeek Harness 协助声明。
+
 ### 4.3.1
 
 - 新增“已完成/待完成任务点为 0”目录节点自动跳过；
@@ -92,5 +96,8 @@ DeepSeek 配置：
 - 原项目：[chaolucky18/xuexitongScript](https://github.com/chaolucky18/xuexitongScript)
 - 感谢原项目提供的 V3 视频播放、课程目录导航和页面结构基础。
 - 感谢所有提交 issue、PR 和测试反馈的贡献者。
+- 本项目由 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 协助完成。
+
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
 
 本项目仅用于前端自动化学习和脚本调试研究，请遵守目标平台的使用规定。
