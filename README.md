@@ -1,4 +1,15 @@
-# 学习通自动刷课脚本 V3 稳定版
+# 学习通自动刷课脚本（V4 / V3）
+
+## V4 版本（推荐）
+
+V4 是在 [chaolucky18/xuexitongScript](https://github.com/chaolucky18/xuexitongScript) 的 V3 基础上扩展的单文件油猴脚本，新增章节测验、视频内嵌弹题自动作答，以及“已完成/零待完成任务点”节点自动跳过。
+
+- 脚本：[xuexitong_v4_quiz.user.js](xuexitong_v4_quiz.user.js)
+- 详细说明：[README_V4.md](README_V4.md)
+
+V4 保留 V3 的视频自动播放和跨章切节，答题功能需要自行配置 DeepSeek API Key。感谢原项目 **chaolucky18/xuexitongScript** 及所有贡献者。
+
+## V3 稳定版
 
 当前版本以 `v3_optimized.js` 为唯一源码，油猴版由构建脚本生成。它聚焦于稳定播放与课程导航：
 
@@ -17,6 +28,10 @@
 
 ## 文件说明
 
+- [xuexitong_v4_quiz.user.js](xuexitong_v4_quiz.user.js)
+  V4 油猴版：自动播放、跨章切节、章节测验/视频弹题、目录自动跳过
+- [README_V4.md](README_V4.md)
+  V4 安装、配置、题库和跳过规则说明
 - [v3_optimized.js](v3_optimized.js)
   控制台直接执行版本
 - [v3_optimized.user.js](v3_optimized.user.js)
@@ -152,6 +167,12 @@ node tests/verify-v3.mjs
 
 第二条命令会验证两个入口的语法，并确认油猴脚本与唯一源码完全一致。
 
+
+## 致谢
+
+- 原项目：[chaolucky18/xuexitongScript](https://github.com/chaolucky18/xuexitongScript)
+- 感谢原作者 chaolucky18 及项目贡献者提供的 V3 视频播放、目录导航和页面结构基础。
+- V4 的章节测验、视频弹题、题库和目录跳过功能在此基础上扩展。
 
 ## 免责声明
 
